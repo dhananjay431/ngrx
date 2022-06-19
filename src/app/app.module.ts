@@ -7,11 +7,7 @@ import { HelloComponent } from './hello.component';
 import { StoreModule } from '@ngrx/store';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    StoreModule.forRoot({ count: counterReducer }),
-  ],
+  imports: [BrowserModule, FormsModule, StoreModule.forRoot({})],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })
